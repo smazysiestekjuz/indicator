@@ -10,6 +10,7 @@ int main()
     cin>>ile;
 
     int *tablica;
+    tablica = new int [ile];
 
     return 0;
 }
