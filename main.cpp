@@ -6,6 +6,7 @@ int ile;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    cout << "Ile liczb w tablicy: ";
+
     return 0;
 }
