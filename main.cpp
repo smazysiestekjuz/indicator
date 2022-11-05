@@ -16,11 +16,16 @@ int main()
     int *tablica;
     tablica = new int [ile];
 
+    start=clock();
+
     for (int i=0; i<ile; i++)
     {
         tablica[i]=i;
         tablica[i]+=50;
     }
+
+    stop=clock();
+    czas=(double)(stop - start);
 
     delete [] tablica;
     return 0;
