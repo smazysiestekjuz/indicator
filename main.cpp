@@ -12,5 +12,9 @@ int main()
     int *tablica;
     tablica = new int [ile];
 
+
+
+    delete [] tablica;
+
     return 0;
 }
