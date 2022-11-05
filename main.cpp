@@ -5,6 +5,7 @@
 using namespace std;
 
 int ile;
+clock_t start, stop;
 
 int main()
 {
