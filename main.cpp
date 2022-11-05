@@ -25,7 +25,8 @@ int main()
     }
 
     stop=clock();
-    czas=(double)(stop - start);
+    czas=(double)(stop - start) / CLOCKS_PER_SEC;
+    cout<<"czas zapisu (bez wskaznika): "<<czas<<endl;
 
     delete [] tablica;
     return 0;
