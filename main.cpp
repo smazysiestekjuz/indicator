@@ -14,8 +14,8 @@ int main()
 
     for (int i=0; i<ile; i++)
     {
-        cout<<(int)tablica<<endl;
-        tablica++;
+        tablica[i]=i;
+        tablica[i]+=50;
     }
 
     delete [] tablica;
