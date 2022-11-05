@@ -6,6 +6,7 @@ using namespace std;
 
 int ile;
 clock_t start, stop;
+double czas;
 
 int main()
 {
