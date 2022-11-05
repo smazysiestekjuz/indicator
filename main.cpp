@@ -2,6 +2,8 @@
 
 using namespace std;
 
+int ile;
+
 int main()
 {
     cout << "Hello world!" << endl;
