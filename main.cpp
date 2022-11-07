@@ -35,5 +35,9 @@ int main()
 
     start = clock();
 
+    for (int i=0; i<ile; i++)
+    {
+
+    }
     return 0;
 }
