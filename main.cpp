@@ -31,6 +31,7 @@ int main()
     delete [] tablica;
 
     int *wskaznik = tablica;
+    tablica = new int[ile];
 
     return 0;
 }
