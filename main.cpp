@@ -33,5 +33,7 @@ int main()
     int *wskaznik = tablica;
     tablica = new int[ile];
 
+    start = clock();
+
     return 0;
 }
