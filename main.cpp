@@ -37,7 +37,16 @@ int main()
 
     for (int i=0; i<ile; i++)
     {
-
+        *wskaznik = i;
+        *wskaznik+=50;
+         wskaznik++;
     }
+
+    stop=clock();
+    czas=(double)(stop - start) / CLOCKS_PER_SEC;
+    cout<<"czas zapisu (ze wskaznika): "<<czas<<endl;
+
+    delete [] tablica;
+
     return 0;
 }
