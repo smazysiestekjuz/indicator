@@ -29,5 +29,8 @@ int main()
     cout<<"czas zapisu (bez wskaznika): "<<czas<<endl;
 
     delete [] tablica;
+
+    int *wskaznik = tablica;
+
     return 0;
 }
